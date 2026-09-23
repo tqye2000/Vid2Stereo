@@ -1,0 +1,25 @@
+# Vid2Stereo outputs & artifacts
+/out/
+/outputs/
+*.log
+
+# Cloned upstream repo + weights (large, fetched by setup.sh)
+/m2svid/
+/ckpts/
+*.pt
+*.zip
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Corporate CA bundle (local machine trust store export)
+corp-ca-bundle.pem
+setup.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
